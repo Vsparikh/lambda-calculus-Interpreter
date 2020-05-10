@@ -4,8 +4,8 @@ Interpreter for lambda calculus as described in https://en.wikipedia.org/wiki/La
 ## Grammar :
 <pre>
   <λexp>::= <var>
-           |(λ <var> <λexp>)
-           |(<λexp> <λexp>) 
+          |(λ <var> <λexp>)
+          |(<λexp> <λexp>) 
 </pre>
 
 ## Example:
